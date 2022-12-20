@@ -1,0 +1,15 @@
+.sombra {
+    box-shadow: -5px 10px white, -8px 15px black;
+}
+
+.garantia {
+    background-image: url(../src/assets/Rectangle.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 650px){
+    .garantia { 
+        background-image: url(../src/assets/RectangleMd.png);
+    }
+}
