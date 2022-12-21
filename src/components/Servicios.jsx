@@ -4,7 +4,7 @@ function Servicios() {
   return (
     <>
       <div id='servicios'>
-        <h2 className='text-center font-bold font-sans 2xl:text-6xl text-5xl md:mb-20 max-sm:text-3xl text-[#122E92] md:py-10 max-sm:pb-5'>
+        <h2 className='text-center font-bold font-sans 2xl:text-6xl text-5xl md:mb-20 max-sm:text-3xl text-[#122E92] md:py-10 max-sm:pb-5 mt-24'>
               Servicios
           </h2>
       </div>
@@ -19,42 +19,42 @@ function Servicios() {
             <div class="mx-auto ">
                 <div class="flex [&:hover>div]:w-10 [&>div:hover]:w-auto max-sm:[&>div:hover]:w-auto">
                 <div class="group relative max-sm:h-60 2xl:h-96 md:h-72 2xl:w-[30rem] md:w-[20rem] max-sm-[10rem]: cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <img class="h-full object-cover transition-all group-hover:scale-95 " src="https://i.postimg.cc/G2wnqVcm/camion-tmc-1.png" alt="" />
+                    <img class="h-full object-cover transition-all group-hover:scale-95 " src="https://i.postimg.cc/G2wnqVcm/camion-tmc-1.png" alt="Camión con capacidad de 23m3 TMC Solutions" />
                     <div class="absolute inset-0  group-hover:invisible ">
-                    <div class="absolute inset-x-5 bottom-6">
+                    <div class="absolute inset-x-3 max-sm:inset-x-1 bottom-6 max-sm:bottom-2">
                         <div class="flex justify-end gap-3 text-gray-200">
-                            <p>23m3</p>
+                            <p className='max-sm:text-xs'>23m3</p>
                         </div>
                     </div>
                     </div>
                 </div>
 
                 <div class="group relative max-sm:h-60 2xl:h-96 md:h-72 w-16 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/Xvy0K46P/camion-tmc-2.png" alt="" />
+                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/Xvy0K46P/camion-tmc-2.png" alt="Camión con capacidad de 27m3 TMC Solutions" />
                     <div class="absolute inset-0 group-hover:invisible bg-gradient-to-b from-blue-900/50 to-black">
-                    <div class="absolute inset-x-5 bottom-6">
+                    <div class="absolute inset-x-3 max-sm:inset-x-1 bottom-6 max-sm:bottom-2">
                         <div class="flex justify-end gap-3 text-gray-200">
-                            <p>27m3</p>
+                            <p className='max-sm:text-xs'>27m3</p>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div class="group relative max-sm:h-60 2xl:h-96 md:h-72 w-16 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/Z5QSy023/camion-tmc-3.png" alt="" />
+                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/Z5QSy023/camion-tmc-3.png" alt="Camión con capacidad de 30m3 TMC Solutions" />
                     <div class="absolute inset-0 group-hover:invisible bg-gradient-to-b from-blue-900/50 to-black">
-                    <div class="absolute inset-x-5 bottom-6">
+                    <div class="absolute inset-x-3 max-sm:inset-x-1 bottom-6 max-sm:bottom-2">
                         <div class="flex justify-end gap-3 text-gray-200">
-                            <p>30m3</p>
+                            <p className='max-sm:text-xs'>30m3</p>
                         </div>
                     </div>
                     </div>
                 </div>
                 <div class="group relative max-sm:h-60 2xl:h-96 md:h-72 w-16 cursor-pointer overflow-hidden shadow-lg shadow-black/30 transition-all duration-200">
-                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/52yJ087b/camion-tmc-4.png" alt="" />
+                    <img class="h-full object-cover transition-all group-hover:scale-95" src="https://i.postimg.cc/52yJ087b/camion-tmc-4.png" alt="Camión con capacidad de 30m3 TMC Solutions" />
                     <div class="absolute inset-0 group-hover:invisible bg-gradient-to-b from-blue-900/50 to-black">
-                    <div class="absolute inset-x-5 bottom-6">
+                    <div class="absolute inse3 max-sm:inset-x-1-x-5 bottom-6 max-sm:bottom-2">
                     <div class="flex justify-end gap-3 text-gray-200">
-                            <p>30m3</p>
+                            <p className='max-sm:text-xs'>30m3</p>
                         </div>
                     </div>
                     </div>

@@ -17,7 +17,7 @@ function Nosotros() {
             <div className='md:w-1/2 h-auto border border-black rounded-3xl bg-[#122E92] 2xl:mx-20 py-8 sombra max-sm:mb-16 max-sm:px-2'>
                 <div className='w-full '>
                     <div className='flex text-center justify-center 2xl:my-8 md:my-4'>
-                        <img className='w-auto h-full max-sm:h-8 max-sm:w-8 ' src="https://i.postimg.cc/DZLnhFCG/mision-tmc-solutions.png" alt="" /> 
+                        <img className='w-auto h-full max-sm:h-8 max-sm:w-8 ' src="https://i.postimg.cc/DZLnhFCG/mision-tmc-solutions.png" alt="Misión TMC Solutions" /> 
                         <h3 className='text-3xl 2xl:text-4xl max-sm:text-xl text-white text-center px-4 pt-2'>
                             Misión
                         </h3>
@@ -31,7 +31,7 @@ function Nosotros() {
             <div className='md:w-1/2 h-auto max-sm:h-72 border border-black rounded-3xl bg-[#122E92] 2xl:mx-20 py-8 sombra max-sm:mb-16 max-sm:px-2'>
                 <div className='w-full '>
                     <div className='flex text-center justify-center 2xl:my-8 md:my-4 pt-2'>
-                        <img className='w-auto h-full max-sm:h-5 max-sm:w-8 max-sm:mt-1' src="https://i.postimg.cc/3JK7ss2y/vision-tmc-solutions.png" alt="" />
+                        <img className='w-auto h-full max-sm:h-5 max-sm:w-8 max-sm:mt-1' src="https://i.postimg.cc/3JK7ss2y/vision-tmc-solutions.png" alt="Visión TMC Solutions" />
                         <h3 className='text-3xl 2xl:text-4xl max-sm:text-xl text-white text-center px-4'>
                             Visión
                         </h3>

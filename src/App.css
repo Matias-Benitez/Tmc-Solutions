@@ -13,3 +13,7 @@
         background-image: url(../src/assets/RectangleMd.png);
     }
 }
+
+.video {
+    background-image: url(../src/video/video.mp4);
+}

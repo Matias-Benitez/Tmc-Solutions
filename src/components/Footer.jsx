@@ -14,7 +14,7 @@ function Footer() {
             <img src="https://i.postimg.cc/HnmHsKKh/logo-horizontal-tmc-solutions.png" alt="" />
         </a>
       </div>
-      <div className='w-1/3 max-sm:w-auto flex text-center justify-center max-sm:py-5 2xl:text-xl md:text-xl'>
+      <div className='w-1/3 max-sm:w-auto flex text-center justify-center max-sm:py-5 max-sm:px-8 2xl:text-xl md:text-xl'>
         <p>Copyright © TMC Solutions | Todos los derechos reservados</p>
       </div>
       <div className='w-1/3 max-sm:w-auto flex justify-center max-sm:py-5  '>
