@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -8,6 +9,8 @@ import Servicios from './components/Servicios'
 import Contacto from './components/Contacto'
 
 function App() {
+
+  const [formulario, serFormulario] = useState([]) ;
 
   return (
     <div>

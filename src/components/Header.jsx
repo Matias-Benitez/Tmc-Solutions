@@ -17,23 +17,22 @@ const Header = () => {
       </div>
       <nav
         className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${
-          showMenu ? "left-0" : "-left-full"} top-0 xl:static flex-1 flex flex-col xl:flex-row items-center md:justify-end  gap-8 transition-all duration-500 z-50 md:mr-8 `}>
+          showMenu ? "left-0" : "-left-full" } top-0 xl:static flex-1 flex flex-col xl:flex-row items-center md:justify-end  gap-8 transition-all duration-500 z-50 md:mr-8 `}>
         <span className="max-sm:mt-10">
-        <a href="#nosotros" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Nosotros
+        <a onClick={() => setShowMenu(!showMenu)} href="#nosotros" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Nosotros
         </a>
          
         </span>
-        <a href="#servicios" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Servicios
+        <a onClick={() => setShowMenu(!showMenu)} href="#servicios" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Servicios
         </a>
-        <a href="#contacto" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Contacto
+        <a onClick={() => setShowMenu(!showMenu)} href="#contacto" className="text-lg text-gray-500 inline-block relative transition-all duration-300 before:from-black before:via-black hover:before:w-full hover:before:opacity-100 font-medium  hover:text-black ">Contacto
         </a>
         
         
       </nav>
       <button
-        onClick={() => setShowMenu(!showMenu)}
-        className="xl:hidden text-2xl p-2">
-        {showMenu ? <RiCloseLine /> : <RiMenuFill />}
+        onClick={() => setShowMenu(!showMenu)} className="xl:hidden text-2xl p-2">
+        {showMenu ? <RiCloseLine /> : <RiMenuFill />  }
       </button>
     </header>
   );
