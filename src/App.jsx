@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -6,12 +5,9 @@ import Hero from './components/Hero'
 import Nosotros from './components/Nosotros'
 import Garantia from './components/Garantia'
 import Servicios from './components/Servicios'
-import Contacto from './components/Contacto'
+import ContactForm from './components/ContactForm'
 
 function App() {
-
-  const [formulario, serFormulario] = useState([]) ;
-
   return (
     <div>
       <Header />
@@ -19,7 +15,7 @@ function App() {
       <Nosotros />
       <Garantia />
       <Servicios />
-      <Contacto />
+      <ContactForm />
       <Footer />
       
     </div>
